@@ -46,7 +46,7 @@ export function GuildSelect() {
   if (guilds.status === 'error')
     return (
       <Button w="fit-content" variant="danger" onClick={() => guilds.refetch()}>
-        Try Again
+        إعادة المحاولة
       </Button>
     );
 

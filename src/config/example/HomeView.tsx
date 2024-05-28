@@ -68,7 +68,7 @@ export default function HomeView() {
       </Flex>
       <GuildSelect />
 
-      <Flex direction="column" gap={1}>
+      {/* <Flex direction="column" gap={1}>
         <Heading size="md">{t.command.title}</Heading>
         <Text color="TextSecondary">{t.command.description}</Text>
         <HStack mt={3}>
@@ -79,9 +79,9 @@ export default function HomeView() {
             {t.learn_more}
           </Button>
         </HStack>
-      </Flex>
-      <TestChart />
-      <Grid templateColumns={{ base: '1fr', lg: '0.5fr 1fr' }} gap={3}>
+      </Flex> */}
+      {/* <TestChart /> */}
+      {/* <Grid templateColumns={{ base: '1fr', lg: '0.5fr 1fr' }} gap={3}>
         <Card rounded="3xl" variant="primary">
           <CardBody as={Center} p={4} flexDirection="column" gap={3}>
             <Circle p={4} bg="brandAlpha.100" color="brand.500" _dark={{ color: 'brand.200' }}>
@@ -97,7 +97,7 @@ export default function HomeView() {
           <VoiceChannelItem />
           <VoiceChannelItem />
         </Flex>
-      </Grid>
+      </Grid> */}
     </Flex>
   );
 }

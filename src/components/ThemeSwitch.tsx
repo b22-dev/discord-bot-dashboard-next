@@ -24,7 +24,7 @@ export function ThemeSwitch({ secondary }: { secondary?: boolean }) {
         _dark={{
           color: 'TextPrimary',
         }}
-        as={colorMode === 'light' ? IoMdMoon : IoMdSunny}
+        as={colorMode === 'dark' ? IoMdMoon : IoMdSunny}
       />
     </Button>
   );

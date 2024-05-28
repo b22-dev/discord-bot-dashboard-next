@@ -8,8 +8,8 @@ export const auth = createI18n(provider, {
     login_bn: 'Login with Discord',
   },
   cn: {
-    login: '登入控制面板',
-    'login description': '登錄並開始使用我們的機器人',
-    login_bn: '使用 Discord 登錄',
+    login: 'تسجيل الدخول',
+    'login description': 'سجل الدخول الان وابدأ بتحويل خيالك إلى واقع',
+    login_bn: 'تسجيل الدخول بالدسكورد',
   },
 });

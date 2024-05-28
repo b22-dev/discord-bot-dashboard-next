@@ -26,7 +26,12 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
     <ChakraProvider theme={theme}>
       <QueryClientProvider client={client}>
         <Head>
-          <title>Demo Bot</title>
+          <title>Majestic Flux</title>
+          <link rel="icon" href="/logo.ico" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet" />
+
         </Head>
         {getLayout(<Component {...pageProps} />)}
       </QueryClientProvider>

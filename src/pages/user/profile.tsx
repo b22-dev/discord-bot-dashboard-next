@@ -75,13 +75,13 @@ const ProfilePage: NextPageWithLayout = () => {
             isChecked={colorMode === 'dark'}
             onChange={(e) => setColorMode(e.target.checked ? 'dark' : 'light')}
           />
-          <SwitchField
+          {/* <SwitchField
             id="developer-mode"
             label={t['dev mode']}
             desc={t['dev mode description']}
             isChecked={devMode}
             onChange={(e) => setDevMode(e.target.checked)}
-          />
+          /> */}
           <FormControl>
             <Box mb={2}>
               <FormLabel fontSize="md" fontWeight="medium" m={0}>

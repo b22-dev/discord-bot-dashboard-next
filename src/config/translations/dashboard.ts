@@ -24,24 +24,24 @@ export const dashboard = createI18n(provider, {
     },
   },
   cn: {
-    pricing: '價錢',
-    learn_more: '了解更多',
+    pricing: 'الأسعار',
+    learn_more: 'معرفة المزيد',
     invite: {
-      title: '邀請我們的機器人',
-      description: '一鍵試用我們的 Discord 機器人',
-      bn: '現在邀請',
+      title: 'دعوة البوت',
+      description: 'حول خيالك إلى واقع بضغطة زر',
+      bn: 'دعوة البوت',
     },
     servers: {
-      title: '選擇服務器',
-      description: '自定義您的服務器',
+      title: 'اختر سيرفر',
+      description: 'مكان تحويل خيالك إلى واقع',
     },
     vc: {
-      create: '創建語音通道',
-      'created channels': '已創建語音頻道',
+      create: 'إنشاء روم صوتي',
+      'created channels': 'الرومات الصوتية التي تم إنشائها',
     },
     command: {
-      title: '命令使用量',
-      description: '使用你的服務器命令使用量',
+      title: 'استهلاك الأوامر',
+      description: 'استهلاك الأوامر في سيرفرك',
     },
   },
 });
